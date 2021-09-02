@@ -1,0 +1,13 @@
+  <div class="message">
+    <div class="top-message">
+      <div class="top-message_name">
+        <%= message.user.name %>
+      </div>
+      <div class="top-message_date">
+        <%= l message.created_at %>
+      </div>
+    </div>
+    <div class="message_text">
+        <%= message.content %>
+    </div>
+  </div>
